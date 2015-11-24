@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52A3A7EF-7110-27E9-C3E1-F3E835CB1219" name="F15A7Contact">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 20:38:09 UTC</createdTime>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="relationship_id" id="BF8FC11B-B88D-3DB2-B69E-314C8BA38CD2">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 20:38:45 UTC</createdTime>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RFE_id" id="D031659A-C4B6-F106-3A75-B38551968F08">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 20:39:57 UTC</createdTime>
+<generatorID>644D9514-E6A1-D963-1C81-92BC751C97F4</generatorID>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6E008B60-206D-2BEB-121B-A74242D7B619</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="394403E7-30B8-9595-DD5D-9220031C5DF8">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 20:40:06 UTC</createdTime>
+<comment>fsvfdvf cdrefdvfd</comment>
+<generatorID>3FC0FD9D-CB65-092F-4776-82A7600CDD85</generatorID>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>09A1CE4E-DB96-F705-1005-487B46643C81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="294C52FC-CC08-3DA1-7FF7-975C37DF7A19" name="F15_A7Emp_RFE PK">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 20:38:58 UTC</createdTime>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF8FC11B-B88D-3DB2-B69E-314C8BA38CD2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

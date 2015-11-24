@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00DCB0FA-5D95-3113-680F-6CFE20EDB943" name="F15A7Lab_Sys_Admin">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-21 05:27:51 UTC</createdTime>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>AF5E08D0-06B2-E94A-39A4-DA352F3D9F39</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lab_sys_admin_flag" id="A6A7C142-5F6E-E699-A494-E99C86AA3512">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 20:18:24 UTC</createdTime>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

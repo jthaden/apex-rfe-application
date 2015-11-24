@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81842688-94D2-5923-44C9-6D9F445F3E22" name="F15A7Auth">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 01:15:37 UTC</createdTime>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="auth_id" id="19A19841-EAA3-A304-202B-D206D8A374F9">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 01:16:01 UTC</createdTime>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="right" id="2111B28D-3ED1-3994-8491-C0D59B682DFE">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 01:16:41 UTC</createdTime>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="2B330897-AD05-1653-D203-13ADB30E853A">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 01:19:14 UTC</createdTime>
+<generatorID>8ED24F43-DB65-6EE8-F373-F8633DCC6CC8</generatorID>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>09A1CE4E-DB96-F705-1005-487B46643C81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8128742-2247-15AF-90D1-D111408CD58A" name="F15A7_Auth PK">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 01:16:13 UTC</createdTime>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19A19841-EAA3-A304-202B-D206D8A374F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="568A81A3-D100-126B-ADA0-A761203D56C7" name="F15A7Stat">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-21 05:31:42 UTC</createdTime>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="status_id" id="5BFFF757-8B75-6E7D-38CC-EBE5C08D1B30">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 20:35:52 UTC</createdTime>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="effective_date" id="D3EA6833-018B-8261-EFD6-F45FAF92EFFA">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 19:46:13 UTC</createdTime>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_code" id="3308D4E9-737C-66C4-35B9-1FEAC5C0B88D">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 19:47:29 UTC</createdTime>
+<generatorID>F96AE83C-464D-BB0B-EE7F-4DAE2077C2D1</generatorID>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>504666E0-E5D0-1EDF-5684-E41BD6E11F58</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RFE_id" id="F9DF7748-7EC6-A56E-2570-0468CECA8A0A">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 19:41:51 UTC</createdTime>
+<generatorID>445AF1E8-7189-97C9-8103-784FE3DA1B45</generatorID>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6E008B60-206D-2BEB-121B-A74242D7B619</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="entered_by_emp_id" id="7DBC44D5-2F65-E067-C129-F34A3027D6A3">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 19:48:21 UTC</createdTime>
+<generatorID>B857CBDE-86EB-E877-E30F-763168B13CCD</generatorID>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>09A1CE4E-DB96-F705-1005-487B46643C81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AAD2B6D-3249-A3AE-1E44-F437D4B4922D" name="F15_A7Status PK">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 20:36:01 UTC</createdTime>
+<ownerDesignName>A7_ARL</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5BFFF757-8B75-6E7D-38CC-EBE5C08D1B30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

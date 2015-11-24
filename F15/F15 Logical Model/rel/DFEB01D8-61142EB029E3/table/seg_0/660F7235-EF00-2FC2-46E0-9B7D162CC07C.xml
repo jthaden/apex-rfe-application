@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="660F7235-EF00-2FC2-46E0-9B7D162CC07C" name="F15_s_c">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-16 02:27:01 UTC</createdTime>
+<generatorID>BF901381-91EB-A90D-FF1A-060AA6EF2436</generatorID>
+<ownerDesignName>F15 Logical Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="s_c_id" id="CD2134A2-DE11-28A6-2CA2-83FD7607E869">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-16 02:27:01 UTC</createdTime>
+<generatorID>1654FA1F-302C-E3FA-B14A-818B038B999C</generatorID>
+<ownerDesignName>F15 Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15_Student_student_id" id="906F4187-8C63-AFEE-024D-0C111C88F509">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-16 02:27:01 UTC</createdTime>
+<generatorID>A00E61EB-54E1-308F-84DB-3C7738025BAA</generatorID>
+<ownerDesignName>F15 Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7B13C18E-B9EA-6E45-65C6-370B424E01B9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3586FBE4-8D8A-2603-75BD-47A900B6B688" referredColumn="7B13C18E-B9EA-6E45-65C6-370B424E01B9"/>
+</associations>
+</Column>
+<Column name="F15_APCourse_apcourse_id" id="A7DC67BA-9A65-CB91-5BD7-76420AD9A568">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-16 02:27:01 UTC</createdTime>
+<generatorID>A2FABA11-E67E-487F-6494-9003AE000BFE</generatorID>
+<ownerDesignName>F15 Logical Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>5465170F-52A6-DCEA-882B-1CEC2FCC4C87</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB9F9F33-B29E-F8D4-9086-7627ED7D5368" referredColumn="5465170F-52A6-DCEA-882B-1CEC2FCC4C87"/>
+</associations>
+</Column>
+<Column name="year" id="BF4CF758-01A8-C415-8C05-69A63355849D">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-16 02:27:01 UTC</createdTime>
+<generatorID>C40A9B0C-6B33-7D4A-A0EC-789F77AFADCC</generatorID>
+<ownerDesignName>F15 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grade" id="1CE529BC-C936-3598-F1C9-D62D6E245669">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-16 02:27:01 UTC</createdTime>
+<generatorID>ADDDFB43-36FC-6840-7EAE-2690056F04A7</generatorID>
+<ownerDesignName>F15 Logical Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE612FB5-C584-37A5-3F8D-BA02C64BD44A" name="F15_s_c_PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-16 02:27:01 UTC</createdTime>
+<generatorID>A7DD0655-7D87-6AD5-7C3A-6E9CAE282B19</generatorID>
+<ownerDesignName>F15 Logical Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD2134A2-DE11-28A6-2CA2-83FD7607E869"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="330B4745-8F70-3863-0B58-25387E87EB89" name="F15_s_c_F15_Student_FK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-16 02:27:01 UTC</createdTime>
+<generatorID>EA7718DE-AFE0-0F96-7BAF-0BEA26276EA2</generatorID>
+<ownerDesignName>F15 Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="906F4187-8C63-AFEE-024D-0C111C88F509"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2972FED3-8FF8-5F59-73BE-11ACE2E020BA" name="F15_s_c_F15_APCourse_FK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-16 02:27:02 UTC</createdTime>
+<generatorID>9B1CA9FF-AC8F-6CF5-6761-FF54278416E1</generatorID>
+<ownerDesignName>F15 Logical Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7DC67BA-9A65-CB91-5BD7-76420AD9A568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

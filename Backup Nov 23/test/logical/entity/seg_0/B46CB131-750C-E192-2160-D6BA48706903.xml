@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B46CB131-750C-E192-2160-D6BA48706903" name="F15A7Doc">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-21 19:27:18 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document_id" id="04BAFFDD-0E94-E24C-05E4-9FAF79FA4A5A">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-21 19:27:31 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RFE_id" id="CCACE87C-6F23-982E-FFD1-46C2115D38A2">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-21 19:27:44 UTC</createdTime>
+<generatorID>3DC7C2A7-4D2E-BAA3-7045-B9B3F217C137</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6E008B60-206D-2BEB-121B-A74242D7B619</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C4126C1-C5E8-4DF1-E5ED-24221DCE8FD3" name="F15_A7Document PK">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-21 19:27:36 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04BAFFDD-0E94-E24C-05E4-9FAF79FA4A5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

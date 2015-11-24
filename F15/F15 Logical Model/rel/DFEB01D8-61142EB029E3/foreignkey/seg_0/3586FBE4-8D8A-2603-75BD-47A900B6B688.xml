@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3586FBE4-8D8A-2603-75BD-47A900B6B688" name="F15_s_c_F15_Student_FK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-16 02:27:01 UTC</createdTime>
+<generatorID>EA7718DE-AFE0-0F96-7BAF-0BEA26276EA2</generatorID>
+<ownerDesignName>F15 Logical Model</ownerDesignName>
+<containerWithKeyObject>660F7235-EF00-2FC2-46E0-9B7D162CC07C</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>330B4745-8F70-3863-0B58-25387E87EB89</localFKIndex>
+<keyObject>D6234CEC-8EC6-EBEC-D37A-254AEEB889CE</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

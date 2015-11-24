@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="F15 Logical Model" id="9DDFCE20-3186-A4E3-56FE-E8E8A917BBE7" version="3.5">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 15:07:49 UTC</createdTime>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9DDFCE20-3186-A4E3-56FE-E8E8A917BBE7</designId>
+</OSDM_Design>

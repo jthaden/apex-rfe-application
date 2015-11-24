@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41CB4BBE-F5AA-6F9C-18AA-0D9E102879BB" name="F15_A7Contacts">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 19:51:27 UTC</createdTime>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RFE_id" id="C384A128-DF50-AC08-0E65-CA1FC0434163">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 19:53:12 UTC</createdTime>
+<generatorID>09C334D7-4783-7996-FA0F-D57400F064E1</generatorID>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6E008B60-206D-2BEB-121B-A74242D7B619</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact_role_code" id="2F7722A4-F06C-436B-D374-2FDDCF7A9D2B">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 19:54:07 UTC</createdTime>
+<generatorID>D811EB96-E4E2-48CC-878D-B66658192580</generatorID>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E0C7A86F-4666-5BC2-A0E9-F5B8FF144DA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact_employee_id" id="F9EFD986-7CC5-D594-4835-CCE469DA8760">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 19:54:49 UTC</createdTime>
+<generatorID>D8167D52-5C53-426C-B76A-A9BD4AC462FD</generatorID>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>09A1CE4E-DB96-F705-1005-487B46643C81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="effective_date" id="A8A240B7-99DF-4A95-AE8F-AC525AAA92C6">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 19:51:36 UTC</createdTime>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comments" id="2750F899-8120-265D-0A7E-B0BEEBA83FED">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-25 19:51:48 UTC</createdTime>
+<ownerDesignName>A7_ARL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

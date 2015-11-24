@@ -1,0 +1,124 @@
+DROP SEQUENCE F15_APCourse_seq ; 
+create sequence F15_APCourse_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger F15_APCourse_PK_trig 
+before insert on F15_APCourse
+for each row 
+begin 
+select F15_APCourse_seq.nextval into :new.apcourse_id from dual; 
+end; 
+/
+alter table F15_APCourse add created date ; 
+alter table F15_APCourse add created_by VARCHAR2 (255) ; 
+alter table F15_APCourse add row_version_number integer ; 
+alter table F15_APCourse add updated date ; 
+alter table F15_APCourse add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger F15_APCourse_AUD_trig 
+before insert or update on F15_APCourse 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE F15_Student_seq ; 
+create sequence F15_Student_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger F15_Student_PK_trig 
+before insert on F15_Student
+for each row 
+begin 
+select F15_Student_seq.nextval into :new.student_id from dual; 
+end; 
+/
+alter table F15_Student add created date ; 
+alter table F15_Student add created_by VARCHAR2 (255) ; 
+alter table F15_Student add row_version_number integer ; 
+alter table F15_Student add updated date ; 
+alter table F15_Student add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger F15_Student_AUD_trig 
+before insert or update on F15_Student 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE F15_s_c_seq ; 
+create sequence F15_s_c_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger F15_s_c_PK_trig 
+before insert on F15_s_c
+for each row 
+begin 
+select F15_s_c_seq.nextval into :new.s_c_id from dual; 
+end; 
+/
+alter table F15_s_c add created date ; 
+alter table F15_s_c add created_by VARCHAR2 (255) ; 
+alter table F15_s_c add row_version_number integer ; 
+alter table F15_s_c add updated date ; 
+alter table F15_s_c add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger F15_s_c_AUD_trig 
+before insert or update on F15_s_c 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP INDEX F15_APCourse_apcourse__FK_0 ;
+CREATE INDEX F15_APCourse_apcourse__FK_0 ON F15_s_c(F15_APCourse_apcourse_id) ;
+DROP INDEX F15_Student_student_id_FK_1 ;
+CREATE INDEX F15_Student_student_id_FK_1 ON F15_s_c(F15_Student_student_id) ;

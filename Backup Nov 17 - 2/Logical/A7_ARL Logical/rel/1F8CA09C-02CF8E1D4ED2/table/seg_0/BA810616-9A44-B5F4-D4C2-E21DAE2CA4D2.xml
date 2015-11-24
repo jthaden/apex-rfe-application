@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA810616-9A44-B5F4-D4C2-E21DAE2CA4D2" name="F15A7RFETask">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>0C2075FE-C3DE-1A8B-FFAA-698FEEA4BA08</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<ordsAlias>f15_a7rfe_tasks</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="relationship_id" id="0756A698-374D-433F-15FF-B3640376CC9E">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>B5EFD962-51EE-D3F0-A470-C481AA9E00A1</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15_A7Task_task_id" id="C7560C67-E8D8-39FD-11C5-102C96CCC748">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>75163687-BD0C-A1E0-110A-41222A970358</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C4888C9-DF9E-5BB8-2193-74006D2763ED" referredColumn="73F8F95E-721A-C2C5-0A11-639CEB6652E7"/>
+</associations>
+</Column>
+<Column name="F15_A7RFE_RFE_id" id="03EE57BD-CAD0-8B73-3862-773D23E85C8B">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>62DB2AAC-DE08-1130-62FF-32DF40E73264</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4902A74-1AF7-6AFE-F923-C9281A49F4CD" referredColumn="980CBCCF-3AED-4680-F50E-618F452552AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91AABDEF-9343-FE5B-CD32-BB42B311FEE6" name="F15_A7RFE_Tasks_PK">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>03973B6F-E5BC-F41C-7D24-50656F7DD74B</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0756A698-374D-433F-15FF-B3640376CC9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D73917E7-C72F-416F-FE86-8E4B4E35CC83" name="F15_A7RFE_Tasks_F15_A7RFE_FK">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>83E94152-3FE1-C86B-B4F1-ACFF3C23B98D</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03EE57BD-CAD0-8B73-3862-773D23E85C8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBA3A415-A83D-B34F-EFFB-33FC099AAC50" name="F15_A7RFE_Tasks_F15_A7Task_FK">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:48 UTC</createdTime>
+<generatorID>93E3192C-D11A-A399-0237-BE400879B7AF</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7560C67-E8D8-39FD-11C5-102C96CCC748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

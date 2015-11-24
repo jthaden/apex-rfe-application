@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RFE-Stat" directorySegmentName="seg_0" id="D23D4111-C0F8-9C7C-68AD-965AD7A911DE">
+<createdBy>hongp</createdBy>
+<createdTime>2015-10-23 22:19:03 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<sourcePk>73CD6735-3AF5-24B0-C01C-1748FD354C13</sourcePk>
+<targetPk>206D84A8-E597-49F1-E9C4-BE838A684ADC</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4D6B6AA3-6335-2A11-3F05-52E14EFE8492</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>568A81A3-D100-126B-ADA0-A761203D56C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

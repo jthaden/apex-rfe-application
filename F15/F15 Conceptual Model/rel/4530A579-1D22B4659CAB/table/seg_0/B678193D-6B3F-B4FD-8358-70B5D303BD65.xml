@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B678193D-6B3F-B4FD-8358-70B5D303BD65" name="F15Class_Student">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 15:16:59 UTC</createdTime>
+<generatorID>FBC30657-1280-C757-B066-3A2377C683AA</generatorID>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="37A25AE9-BCAA-F965-510D-593616D63C7B">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 15:16:59 UTC</createdTime>
+<generatorID>E3B174BA-C7E1-D814-4753-FED59E175A4A</generatorID>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foreigns_id" id="F855E101-9367-07B5-F9D7-33D49506843E">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 15:16:59 UTC</createdTime>
+<generatorID>ED623370-EC34-68EC-1596-E68F8E9BE9B9</generatorID>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42F18D7A-6277-5FEB-8752-9350332A75B3" name="F15Class_Student_PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 15:16:59 UTC</createdTime>
+<generatorID>7192376E-B164-F5C7-A5BA-72103D42878C</generatorID>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A25AE9-BCAA-F965-510D-593616D63C7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="817B9E67-CD41-E8E1-4F2C-1215DD9341A1" name="F15Class_Student_PKv1">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 15:16:59 UTC</createdTime>
+<generatorID>7A2ABB41-59FE-68BC-1892-00838E215490</generatorID>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F855E101-9367-07B5-F9D7-33D49506843E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

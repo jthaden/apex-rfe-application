@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Emp-Stat" directorySegmentName="seg_0" id="02180CD6-9936-800A-11CC-1CC3E6B99E92">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 02:08:59 UTC</createdTime>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<sourcePk>2792A91C-D6C3-9C66-AC6B-DAB621700A3D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AF5E08D0-06B2-E94A-39A4-DA352F3D9F39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>568A81A3-D100-126B-ADA0-A761203D56C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

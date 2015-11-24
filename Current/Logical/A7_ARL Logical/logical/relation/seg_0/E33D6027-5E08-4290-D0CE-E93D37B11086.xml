@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RFE-App" directorySegmentName="seg_0" id="E33D6027-5E08-4290-D0CE-E93D37B11086">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 01:36:08 UTC</createdTime>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<engineerTo>
+<item key="1F8CA09C-79EC-AFE5-08FD-02CF8E1D4ED2" value="true"/>
+</engineerTo>
+<sourcePk>73CD6735-3AF5-24B0-C01C-1748FD354C13</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4D6B6AA3-6335-2A11-3F05-52E14EFE8492</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F7752C25-2B48-1E6E-9BA6-E8E09B7EE165</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

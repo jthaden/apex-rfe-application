@@ -1,0 +1,8 @@
+INSERT INTO F15A7Contact (relationship_id, F15A7Emp_employee_id, F15A7RFE_RFE_id)
+
+Values (2400000, 1009, 100000);
+Values (2400001, 1002, 100002);
+Values (2400002, 1003, 100003);
+Values (2400000, 1004, 100001);
+Values (2400001, 1005, 100004);
+Values (2400001, 1010, 100004);

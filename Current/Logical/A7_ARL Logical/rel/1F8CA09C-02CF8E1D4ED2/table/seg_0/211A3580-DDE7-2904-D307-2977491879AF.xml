@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="211A3580-DDE7-2904-D307-2977491879AF" name="F15A7StatCode">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>857FE333-6DF2-4466-3875-AF9FA49C3D6C</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<ordsAlias>f15_a7status_codes</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="status_code" id="DEFCF3DC-2B95-8FA9-8AAF-A32F9656C234">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>E89D920F-8D85-AABB-3B4D-094E99063EB4</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="39E6CB5B-AEE8-12EC-CAE8-824122C0EC03">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>CE2BEF93-5BF3-B1BA-B678-579721251D57</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RFE_status" id="28C2498F-4960-4958-F504-CE81062CD5DE">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>88801919-5F8D-E669-F18D-B76E8CF85DA3</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6467BC17-4B35-D4BB-86B0-8FB82C8FFDA8" name="F15_A7Status_Codes_PK">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>0813AC16-4643-05A0-2645-F6AFDBE93500</generatorID>
+<ownerDesignName>A7_ARL Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEFCF3DC-2B95-8FA9-8AAF-A32F9656C234"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

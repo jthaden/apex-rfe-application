@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R1" directorySegmentName="seg_0" id="7AE523DA-8198-AA31-CE8A-B455F0CEB015">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 21:48:55 UTC</createdTime>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="4530A579-2E90-A395-0360-1D22B4659CAB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CC6AF3FA-4FCC-AAB6-66ED-68C3219C9CF6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6675DA5C-6BF3-F884-D66D-08F92AFDF5DE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="year" id="9C30AD5F-035F-1049-B232-DEFE88C2A7D0">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 21:52:10 UTC</createdTime>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="4530A579-2E90-A395-0360-1D22B4659CAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</attribute>
+<attribute name="grade" id="1D07D11F-B659-6769-B911-0C756E097A1F">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 21:52:37 UTC</createdTime>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="4530A579-2E90-A395-0360-1D22B4659CAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</attribute>
+</attributes>
+</Relation>

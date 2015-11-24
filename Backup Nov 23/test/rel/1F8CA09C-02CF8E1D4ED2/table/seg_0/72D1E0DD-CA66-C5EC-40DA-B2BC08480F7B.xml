@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72D1E0DD-CA66-C5EC-40DA-B2BC08480F7B" name="F15A7Doc">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>B46CB131-750C-E192-2160-D6BA48706903</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<ordsAlias>f15_a7document</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="document_id" id="49C9A0A1-F45D-6888-2AE5-3F116C7A6D27">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>04BAFFDD-0E94-E24C-05E4-9FAF79FA4A5A</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15A7RFE_RFE_id" id="44651B3A-35A4-8914-A42E-5C9D6E8BBA3D">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>CCACE87C-6F23-982E-FFD1-46C2115D38A2</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5803B6E-6566-9B78-87E6-D0ADED79A503" referredColumn="980CBCCF-3AED-4680-F50E-618F452552AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F686BA9D-F7BC-F628-7CC2-69F45B3F1705" name="F15A7Doc_PK">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>3C4126C1-C5E8-4DF1-E5ED-24221DCE8FD3</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49C9A0A1-F45D-6888-2AE5-3F116C7A6D27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4E5F66E-A132-62F6-EE46-F286F16E4FF3" name="F15A7Doc_F15A7RFE_FK">
+<createdBy>almto3</createdBy>
+<createdTime>2015-11-17 23:05:47 UTC</createdTime>
+<generatorID>3DC7C2A7-4D2E-BAA3-7045-B9B3F217C137</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44651B3A-35A4-8914-A42E-5C9D6E8BBA3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

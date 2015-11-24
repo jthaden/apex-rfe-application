@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0B998A62-B5A9-19CC-FC06-94BF7A29DCF6" name="F15_Student" seqName="seg_0"/>
+   <object objectType="Entity" objectID="49632D41-4743-0342-CCFD-5F1343A09F1E" name="F15_ForeignS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6675DA5C-6BF3-F884-D66D-08F92AFDF5DE" name="F15_APCourse" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A5819D7D-C835-F565-DADF-D9A120B5EE77" name="F15_DomesticS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CC6AF3FA-4FCC-AAB6-66ED-68C3219C9CF6" name="F15_APStudent" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7AE523DA-8198-AA31-CE8A-B455F0CEB015" name="R1" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="0399D3BC-3A7B-E4A2-21B9-7494ACD7B1A3" name="Hierarchy_3" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="08DDF233-12D0-646B-7107-C9FB932FBD2F" name="Hierarchy_2" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="E3140A41-76A9-31B9-0608-8DCE0EB05DA0" name="Hierarchy_1" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="E3561FB9-2CBA-A896-2B66-146AB4163458" name="Hierarchy_4" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

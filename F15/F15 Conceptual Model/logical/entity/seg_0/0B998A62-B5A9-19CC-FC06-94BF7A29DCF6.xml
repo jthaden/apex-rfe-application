@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B998A62-B5A9-19CC-FC06-94BF7A29DCF6" name="F15_Student">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 21:34:19 UTC</createdTime>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="4530A579-2E90-A395-0360-1D22B4659CAB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="student_id" id="EE7F912A-C7DE-EF61-46F1-371A4A5989AD">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 21:35:51 UTC</createdTime>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="4530A579-2E90-A395-0360-1D22B4659CAB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="sname" id="B403F431-E04E-A9EA-3E64-295CC2B1C59A">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 21:36:35 UTC</createdTime>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="4530A579-2E90-A395-0360-1D22B4659CAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+</Attribute>
+<Attribute name="gpa" id="95C10FDD-5FEB-CB63-B4A7-2A057B022C83">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 21:38:20 UTC</createdTime>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="4530A579-2E90-A395-0360-1D22B4659CAB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AD34C79-7A3F-25CE-C1F9-855C69489081" name="F15_Student PK">
+<createdBy>pcannata</createdBy>
+<createdTime>2015-09-09 21:36:16 UTC</createdTime>
+<ownerDesignName>F15 Conceptual Model</ownerDesignName>
+<engineerTo>
+<item key="4530A579-2E90-A395-0360-1D22B4659CAB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE7F912A-C7DE-EF61-46F1-371A4A5989AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
