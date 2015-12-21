@@ -4,4 +4,4 @@ CS347 Final Project, where we created a "Request For Exception" database in Orac
 Link to web application: 
 Notes about using web application:
 
-Samples of much of the SQL logic used in the web application can be found in sql_samples.sql. All three models can also be viewed.
+All three models can be viewed. Samples of much of the SQL logic used in the web application can be found in sql_samples.sql, and the sample data currently loaded into the web application database can be viewed in the data folder.
